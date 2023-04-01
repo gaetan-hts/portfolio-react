@@ -1,0 +1,26 @@
+.cv {
+  position: absolute;
+  font-family: $font-2;
+  user-select: none;
+  top: 88%;
+  left: 4.5%;
+  transition: 1.1s ease-in-out;
+  animation: bouncing 5s ease-in-out 5s infinite;
+    
+  i {
+      font-size: 2rem;
+      color: $color-4;
+  }
+
+  @keyframes bouncing {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+}
