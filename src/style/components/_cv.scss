@@ -2,25 +2,22 @@
   position: absolute;
   font-family: $font-2;
   user-select: none;
-  top: 88%;
-  left: 4.5%;
+  top: 90%;
+  left: 3%;
   transition: 1.1s ease-in-out;
-  animation: bouncing 5s ease-in-out 5s infinite;
+  z-index: 1000;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 900px){
+    top: 93%;
+  }
     
   i {
       font-size: 2rem;
       color: $color-4;
   }
+}
 
-  @keyframes bouncing {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-}

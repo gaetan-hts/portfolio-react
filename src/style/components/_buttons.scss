@@ -14,21 +14,33 @@
     }
   }
 
+  
+
   .left {
     left: 5%;
+
+    @media screen and (max-width: 430px){
+      left: 2%;
+    }
   }
 
   .right {
     left: 95%;
+
+    @media screen and (max-width: 430px){
+      left: 98%;
+    }
   }
 
   .bot {
+    transform: rotate(90deg);
     left: 50%;
-    top: 95%;
+    top: 90%;
   }
 
   .top {
+    transform: rotate(-90deg);
     left: 50%;
-    top: 5%;
+    top: 0%;
   }
 }
