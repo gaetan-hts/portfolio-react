@@ -12,14 +12,16 @@
     &:hover {
       font-size: 4.5rem;
     }
-  }
 
-  
+    @media screen and (max-width: 430px) {
+      font-size: 2rem;
+    }
+  }
 
   .left {
     left: 5%;
 
-    @media screen and (max-width: 430px){
+    @media screen and (max-width: 430px) {
       left: 3%;
     }
   }
@@ -27,15 +29,18 @@
   .right {
     left: 95%;
 
-    @media screen and (max-width: 430px){
-      left: 98%;
+    @media screen and (max-width: 430px) {
+      left: 97%;
     }
   }
 
   .bot {
     transform: rotate(90deg);
     left: 50%;
-    top: 90%;
+    top: 80%;
+    @media screen and (max-width: 430px) {
+      top: 80%;
+    }
   }
 
   .top {

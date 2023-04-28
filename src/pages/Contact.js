@@ -61,7 +61,10 @@ const Contact = () => {
           <div className="email">
             <div className="content">
               <h4>email</h4>
-              <CopyToClipboard text="gaetanhonthaas@gmail.com" className="hover">
+              <CopyToClipboard
+                text="gaetanhonthaas@gmail.com"
+                className="hover"
+              >
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
@@ -74,7 +77,7 @@ const Contact = () => {
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>Gaëtan HONTHAAS - 2023</p>
+            <p>© Gaëtan HONTHAAS - 2023</p>
           </div>
         </div>
         <Buttons left={"/projet-1"} />

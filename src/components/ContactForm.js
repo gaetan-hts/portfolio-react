@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { init } from "@emailjs/browser";
-init(process.env.ID);
+init(process.env.REACT_APP_ID);
 
 const ContactForm = () => {
   const form = useRef();
@@ -12,20 +12,19 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_y4q20km",
-        "template_5ni7fmu",
+        "template_3v6ctvy",
+        "service_hwc1qkn",
         form.current,
-        process.env.REACT_APP_ID
+        "Al4ZSSugY_vq3Usd8"
       )
       .then(
         (res) => {
-          console.log(res.text);
           form.current.reset();
           formMess.innerHTML = "<p className='success'>Message envoyé !</p>";
 
           setTimeout(() => {
             formMess.innerHTML = "";
-          }, 2000);
+          }, 4000);
         },
         (err) => {
           console.log(err.text);
@@ -41,11 +40,11 @@ const ContactForm = () => {
 
   return (
     <div className="form-container">
-      <h2>contactez-nous</h2>
+      <h2>contactez-moi</h2>
       <form ref={form} onSubmit={sendEmail} className="form-content">
         <label>nom</label>
         <input type="text" name="name" required autoComplete="off" id="name" />
-        <label>Email</label>
+        <label>email</label>
         <input
           type="email"
           name="email"
@@ -53,9 +52,9 @@ const ContactForm = () => {
           autoComplete="off"
           id="email"
         />
-        <label>Message</label>
+        <label>message</label>
         <textarea name="message" id="mess" />
-        <input type="submit" value="Envoyer" className="hover button" />
+        <input type="submit" value="envoyer" className="hover button" />
       </form>
       <div className="formMessage"></div>
     </div>
