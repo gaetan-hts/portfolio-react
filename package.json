@@ -2,7 +2,7 @@
   "name": "react-vitrine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/portfolio-react/#",
+  "homepage": "/",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
