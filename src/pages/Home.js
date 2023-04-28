@@ -59,7 +59,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              <h2>Developpeur web junior</h2>
+              <h2>Developpeur web</h2>
             </motion.h2>
           </div>
         </div>

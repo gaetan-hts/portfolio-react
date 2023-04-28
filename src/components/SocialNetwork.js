@@ -21,29 +21,7 @@ const SocialNetwork = () => {
     <div className="social-network">
       <ul className="content">
         <a
-          href="https://www.facebook.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover"
-          onMouseOver={anim}
-        >
-          <li>
-            <i className="fab fa-facebook-f"></i>
-          </li>
-        </a>
-        <a
-          href="https://www.twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover"
-          onMouseOver={anim}
-        >
-          <li>
-            <i className="fab fa-twitter"></i>
-          </li>
-        </a>
-        <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/gaetan_hts/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
@@ -51,6 +29,28 @@ const SocialNetwork = () => {
         >
           <li>
             <i className="fab fa-instagram"></i>
+          </li>
+        </a>
+        <a
+          href="https://github.com/gaetan-hts"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover"
+          onMouseOver={anim}
+        >
+          <li>
+            <i className="fab fa-github"></i>
+          </li>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ga%C3%ABtan-honthaas-b128b214a/?originalSubdomain=fr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover"
+          onMouseOver={anim}
+        >
+          <li>
+            <i className="fab fa-linkedin"></i>
           </li>
         </a>
       </ul>
