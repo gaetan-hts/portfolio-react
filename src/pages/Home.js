@@ -42,7 +42,7 @@ const Home = () => {
               onDragEnd
               dragConstraints={{
                 left: -250,
-                right: 950,
+                right: 500,
                 top: -200,
                 bottom: 250,
               }}
@@ -54,7 +54,7 @@ const Home = () => {
               onDragEnd
               dragConstraints={{
                 left: -250,
-                right: 950,
+                right: 700,
                 top: -200,
                 bottom: 250,
               }}

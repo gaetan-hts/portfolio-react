@@ -12,15 +12,16 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "template_3v6ctvy",
         "service_hwc1qkn",
+        "template_3v6ctvy",
         form.current,
-        "Al4ZSSugY_vq3Usd8"
+        process.env.REACT_APP_ID
       )
       .then(
         (res) => {
           form.current.reset();
           formMess.innerHTML = "<p className='success'>Message envoyé !</p>";
+          console.log(res);
 
           setTimeout(() => {
             formMess.innerHTML = "";
