@@ -11,13 +11,13 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Lyon Béton",
-    date: "Mars 2020",
-    languages: ["Symfony", "Vue"],
+    title: "Crypto currencies dashboard",
+    date: "April 2023",
+    languages: ["React", "(Redux Toolkit)"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
-    link: "http://www.google.com",
+      "Dashboard de crypto-monnaies pour suivre en temps réel les prix et les variations de vos crypto-monnaies préférées. Grâce à l'utilisation de la bibliothèque React, la gestion de l'état avec Redux Toolkit et l'API de CoinGecko, cette application fournit une expérience utilisateur rapide et fluide.",
+    img: "./assets/img/crypto-dashboard.jpg",
+    link: "https://gaetan-hts.github.io/crypto-dashboard/",
   },
   {
     id: 3,
