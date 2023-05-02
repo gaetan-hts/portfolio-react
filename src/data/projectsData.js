@@ -11,12 +11,12 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Crypto currencies dashboard",
+    title: "Crypto Dashboard",
     date: "April 2023",
     languages: ["React", "(Redux Toolkit)"],
     infos:
       "Dashboard de crypto-monnaies pour suivre en temps réel les prix et les variations de vos crypto-monnaies préférées. Grâce à l'utilisation de la bibliothèque React, la gestion de l'état avec Redux Toolkit et l'API de CoinGecko, cette application fournit une expérience utilisateur rapide et fluide.",
-    img: "./assets/img/crypto-dashboard.jpg",
+    img: "./assets/img/crypto-dashboard.png",
     link: "https://gaetan-hts.github.io/crypto-dashboard/",
   },
   {
