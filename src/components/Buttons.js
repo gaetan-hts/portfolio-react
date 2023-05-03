@@ -51,7 +51,7 @@ const Buttons = (props) => {
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
-      className="scroll-bottom"
+      className="scroll"
     >
       {props.left && (
         <NavLink to={props.left} className="left hover">
