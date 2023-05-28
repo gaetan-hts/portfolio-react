@@ -89,6 +89,14 @@
         top: -22px;
         left: 133px;
         z-index: -1;
+        animation: h1Anim 1.5s forwards ease;
+        transform: scale(0);
+
+        @keyframes h1Anim {
+          to {
+            transform: scale(1);
+          }
+        }
       }
     }
 
