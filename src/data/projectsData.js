@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     title: "Quai Antique",
     date: "Janvier 2023",
-    languages: ["React", "Php", "Sass", "SQL"],
+    languages: ["React", "Sass", "Php", "SQL"],
     infos:
       "Projet fictif de restaurant gastronomique français proposant une carte, une galerie d'images, un formulaire de réservation et un système d'authentification pour conserver les données utilisateur mais aussi d'accéder à la partie administrateur pour modifier le site (CRUD de la galerie d'images, des horaires et du nombre de couverts max par service).",
     img: "./assets/img/projet-1.png",
