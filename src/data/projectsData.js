@@ -35,7 +35,7 @@ export const projectsData = [
     date: "Août 2022",
     languages: ["Wordpress"],
     infos:
-      "Site WordPress One Page pour une crèche associative utilisant les fonctionnalités d'Elementor et le thème OceanWP. Pour optimiser les performances du site, j'ai utilisé des outils tels que Autoptimize, WP Fastest Cache et Async JS. On y retrouve des sections tel qu'une galerie d'images, un formulaire de contact interactif ou encore un carrousel de témoignages. La navigation offre une expérience utilisateur fluide et engageante pour les visiteurs.",
+      "Site WordPress One Page pour une crèche associative utilisant les fonctionnalités d'Elementor et le thème OceanWP. Pour optimiser les performances du site, j'ai utilisé des outils tels que Autoptimize, WP Fastest Cache et Async JS. On y retrouve des sections tel qu'une galerie d'images, un formulaire de contact interactif ou encore un carrousel de témoignages.",
     img: "./assets/img/projet-3.png",
     link: "http://creche-groscalin.fr/",
   },
